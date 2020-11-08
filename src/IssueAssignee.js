@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const IssueAssignee = ({ assignee }) => {
   return (
     <div className="IssueAssignee">
-      <span>{assignee}</span>
+      <span>{assignee.email}</span>
     </div>
   );
 };

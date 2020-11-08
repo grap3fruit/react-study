@@ -17,7 +17,7 @@ import React, { Component } from 'react';
 const IssueLabel = ({ label }) => {
   return (
     <div className="IssueLabel">
-      <span>{label}</span>
+      <span>{label.title}</span>
     </div>
   );
 };

@@ -5,12 +5,13 @@ import IssueList from './IssueList.js';
 import Test from './Test.js';
 
 const App = (props) => {
+  console.log('App');
   return (
     <div className="App">
       <h1> Issue Tracker </h1>
-      <Login />
-      {/* <IssueList /> */}
-      <Test />
+      {/* <Login /> */}
+      <IssueList />
+      {/* <Test /> */}
     </div>
   );
 };

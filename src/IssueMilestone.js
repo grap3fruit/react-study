@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-const IssueMilestone = (props) => {
+const IssueMilestone = ({ milestone }) => {
   return (
     <div className="IssueMilestone">
-      <span>{props.milestone}</span>
+      <span>{milestone.title}</span>
     </div>
   );
 };

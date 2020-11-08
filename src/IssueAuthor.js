@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-const IssueAuthor = (props) => {
+const IssueAuthor = ({ creater }) => {
   return (
     <div className="IssueAuthor">
-      <span>{props.author}</span>
+      <span>{creater.email}</span>
     </div>
   );
 };
